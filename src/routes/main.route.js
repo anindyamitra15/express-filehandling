@@ -1,8 +1,8 @@
 import express from 'express';
-import { Root } from '../controllers/main.controller.js';
+import MainController from '../controllers/main.controller.js';
 
 const MainRouter = express.Router();
 
-MainRouter.get('/', Root);
+MainRouter.get('/', MainController.Root);
 
 export default MainRouter;
