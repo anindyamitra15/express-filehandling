@@ -1,0 +1,30 @@
+{
+  "name": "express-filehandling",
+  "version": "1.0.0",
+  "description": "File Handling demonstration in various ways",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anindyamitra15/express-filehandling.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anindyamitra15/express-filehandling/issues"
+  },
+  "homepage": "https://github.com/anindyamitra15/express-filehandling#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
