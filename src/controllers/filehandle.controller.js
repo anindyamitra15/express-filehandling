@@ -1,4 +1,4 @@
-const Root = async (req, res) => {
+const Root = async (_, res) => {
   res.render("fileHandleHome");
 };
 

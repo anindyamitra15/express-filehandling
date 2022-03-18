@@ -1,6 +1,6 @@
 const date = new Date;
 
-const Root = async (req, res) => {
+const Root = async (_, res) => {
   res.send(`Server is running since ${date}`);
 };
 

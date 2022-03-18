@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 
 
 
-export let production = false;
+export let isProduction = false;
 
 if (!process.env.NODE_ENV) dotenv.config();
 else {
@@ -14,4 +14,10 @@ else {
   }
 }
 
-export const PORT = Number(process.env.PORT || 3030);
+const PORT = Number(process.env.PORT || 3030);
+
+const config = {
+  PORT,
+  isProduction
+};
+export default config;
